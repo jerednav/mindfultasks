@@ -10,7 +10,7 @@ const connectDB = async () => {
     //put async await inside try/catch block because if there's an error like we can't connect, then we need a way to have it fail and show the error message
     try {
         await  mongoose.connect(db, {
-            useNewURIParser: true
+          
         });
 
         console.log('MongoDB Connected...');
