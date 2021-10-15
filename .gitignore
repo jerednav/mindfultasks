@@ -1,2 +1,4 @@
 node_modules/default.json >> .gitignore
 echo default.json
+default.json
+config/default.json
